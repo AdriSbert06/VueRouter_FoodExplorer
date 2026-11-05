@@ -1,6 +1,5 @@
 <template>
   <main v-if="plat" class="detail-page">
-    <!--<RouterLink to="/plats">&larr; Tornar a les receptes</RouterLink>-->
 
     <img :src= '"../../public/foto_Home.png"' :alt="plat.name" class="recipe-image" />
     <h1>{{ plat.name }}</h1>
