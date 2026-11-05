@@ -24,7 +24,6 @@ const router = createRouter({
       component: RecipeDetail 
     },
     {
-      //https://router.vuejs.org/guide/essentials/dynamic-matching.html#catch-all-404-not-found-route
       path :'/:pathMatch(.*)*',
       component:NotFound
     }

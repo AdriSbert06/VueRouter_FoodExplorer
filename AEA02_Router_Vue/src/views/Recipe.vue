@@ -1,10 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-const plats = ref([
-    { id: 1, name: 'Pasta Carbonara', desc: 'Pasta cremosa amb ou, formatge, guanciale i pebre negre.', imatge: '../../public/foto_Home.png' },
-    { id: 2, name: 'Macarrons amb tomàquet', desc: 'Macarrons amb salsa de tomàquet casolana, all i alfàbrega.', imatge: '../../public/foto_Home.png' },
-    { id: 3, name: 'Spaghetti Bolognese', desc: 'Salsa de carn cuinada lentament amb tomàquet i herbes.', imatge: '../../public/foto_Home.png' }
-])
+import { plats } from '../recepta.js'
 </script>
 <template>
     <main class="recipe-page">
